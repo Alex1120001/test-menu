@@ -199,8 +199,11 @@ html{
 }
 .window{
     padding: 10px;
-    background:#E4E3E3;
+    background: #E4E3E3;
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #achtun{
     color: #B02C2C;
