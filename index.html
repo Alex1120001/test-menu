@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,31 @@
     <!-- links -->
     <link rel="stylesheet" href="./css/index.css">
 </head>
+
 <body>
-    <div class="wrap">
+    <div class="wrap-anim">
         <img src="./images/logo.png" alt="logo">
         <p>
             ЗРОБІТЬ ЗАМОВЛЕННЯ У ДВА КЛІКИ
         </p>
     </div>
+    <div class="wrap">
+        <span class="online"><a href="index2-buy.html">ЗРОБИТИ ЗАМОВЛЕННЯ ОНЛАЙН</a></span>
+        <span id="off" class="offline"><a id="modal">ЗРОБИТИ ЗАМОВЛЕННЯ З ОФІЦІАНТОМ</a></span>
+    </div>
+    <!-- modal window content -->
+    <div id="boxes">
+        <div id="dialog" class="window">
+            <p id="achtun">Офіціант скоро підійде до Вас!</p>
+            <p id="text">Поки ми рекомендуємо переглянути Вам
+                меню нашого закладу
+            </p>
+            <span class="a-menu"><a id="menu" href="index2.html">переглянути меню</a></span>
+            </span>
+        </div>
+        <div id="back"></div>
+    </div>
+    <script src="./script/modal.js"></script>
 </body>
+
 </html>

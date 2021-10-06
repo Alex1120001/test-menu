@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форми для адміністратора</title>
+    <!-- linkd -->
+    <link rel="stylesheet" href="./css/admin.css">
+</head>
+<body>
+    <div class="wrap-pages">
+        <p>
+            Додавання категорії їжі/напитку до головного меню:
+        </p>
+        <form action="" id="form-1">
+            <p>Введіть назву категорії:</p>
+            <input type="text" placeholder="піца" required>
+            <p>Виберіть іконку для фото:</p>
+            <input type="file">
+            <br>
+            <button id="btn">додати</button>
+        </form>
+        <p>
+            Додавання продукта на сторінку категорії:
+        </p>
+        <form action="" id="form-2">
+            <p>
+                Виберіть категорію:
+            </p>
+            <select name="" id="">
+                <option value="">піца</option>
+                <option value="">холодні напої</option>
+                <option value="">алкогольні напої</option>
+                <option value="">закуски</option>
+            </select>
+            <p>
+                Виберіть фото товару:
+            </p>
+            <input type="file">
+            <p>
+                Введіть назву продукта:
+            </p>
+            <input type="text" required>
+            <p>
+                Oпис товару (якщо потрібно):
+            </p>
+            <textarea name="" id="" cols="30" rows="10">
+
+            </textarea>
+            <p>
+                Ціна:
+            </p>
+            <input type="number" required>
+            <br>
+            <button id="btn">додати товар</button>
+        </form>
+    </div>
+</body>
+</html>
