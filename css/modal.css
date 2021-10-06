@@ -1,6 +1,7 @@
 #modal-window{
-    position: absolute;
-    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    width: 0%;
     height: 100%;
     z-index: 99;
     top: 0;
@@ -28,7 +29,7 @@ span a{
     text-decoration: none;
     color: rgb(65, 101, 148);
 }
-#back{
+#fone{
     margin-top: 10px;
     background-color: #fff;
     padding: 5px;
