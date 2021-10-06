@@ -160,6 +160,22 @@ html{
 #basket{
     margin-left: 5px;
 }
+#form-modal{
+    margin-top: 8px;
+}
+#form-modal input{
+    outline: none;
+    border: 1px solid rgb(36, 109, 36);
+    border-radius: 5px;
+    height: 25px;
+}
+#form-modal button{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(36, 109, 36);
+    color: #fff;
+}
 /* modal */
 #boxes{
     width: 0%;
